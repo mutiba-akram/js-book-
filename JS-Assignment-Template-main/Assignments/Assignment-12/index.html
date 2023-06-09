@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>Number Information</h1>
+    <label for="inputNumber">Enter a positive integer:</label>
+    <input type="number" id="inputNumber" min="1">
+    <button onclick="calculateValues()">Calculate</button>
+
+    <h2>Result:</h2>
+  <p id="number"></p>
+  <p id="roundOff"></p>
+  <p id="floorValue"></p>
+  <p id="ceilValue"></p>
+
+  <h1>Number Information</h1>
+  <label for="inputNumber">Enter a negative floating-point number:</label>
+  <input type="number" id="inputNumber" step="0.01">
+  <button onclick="calculateValues()">Calculate</button>
+
+  <h2>Result:</h2>
+  <p id="number"></p>
+  <p id="roundOff"></p>
+  <p id="floorValue"></p>
+  <p id="ceilValue"></p>
+
+  <label for="inputNumber">Enter a number:</label>
+  <input type="number" id="inputNumber" step="0.01">
+  <button onclick="calculateAbsoluteValue()">Calculate</button>
+
+  <p id="result"></p>
+
+  <button onclick="rollDice()">Roll Dice</button>
+
+  <p id="result"></p>
+
+  <button onclick="tossCoin()">Toss Coin</button>
+
+  <p id="result"></p>
+
+  <button onclick="generateRandomNumber()">Generate Random Number</button>
+
+  <p id="result"></p>
+
+  <label for="weightInput">Enter your weight:</label>
+  <input type="text" id="weightInput">
+  <button onclick="displayWeight()">Display Weight</button>
+
+  <p id="result"></p>
+
+  <label for="guessInput">Enter a number between 1 and 10:</label>
+  <input type="number" id="guessInput" min="1" max="10">
+  <button onclick="checkGuess()">Check Guess</button>
+
+  <p id="result"></p>
+
+    <script src="./app.js"></script>
+</body>
+</html>

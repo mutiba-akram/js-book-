@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <label for="cityName">Enter your city name:</label>
+    <input type="text" id="cityName">
+    <button onclick="displayWelcomeMessage()">Submit</button>
+    <p id="welcomeMessage"></p>
+
+    <label for="gender">Enter your gender:</label>
+    <input type="text" id="gender">
+    <button onclick="displayGreetingMessage()">Submit</button>
+    <p id="greetingMessage"></p>
+
+    <label for="signalColor">Enter the color of the signal:</label>
+    <input type="text" id="signalColor">
+    <button onclick="displaySignalMessage()">Submit</button>
+    <p id="signalMessage"></p>
+
+    <label for="remainingFuel">Enter the remaining fuel in your car (in liters):</label>
+    <input type="number" id="remainingFuel">
+    <button onclick="checkFuelLevel()">Submit</button>
+    <p id="fuelMessage"></p>
+
+    <label for="subject1Marks">Marks obtained in Physics:</label>
+    <input type="number" id="subject1Marks"><br>
+  
+    <label for="subject2Marks">Marks obtained in Computer:</label>
+    <input type="number" id="subject2Marks"><br>
+  
+    <label for="subject3Marks">Marks obtained in Chemistry:</label>
+    <input type="number" id="subject3Marks"><br>
+  
+    <label for="totalMarks">Total Marks:</label>
+    <input type="number" id="totalMarks"><br>
+  
+    <button onclick="calculateGrade()">Calculate</button>
+  
+    <p id="totalMarksDisplay"></p>
+    <p id="obtainedMarksDisplay"></p>
+    <p id="percentageDisplay"></p>
+    <p id="gradeDisplay"></p>
+    <p id="remarksDisplay"></p>
+
+    <label for="userGuess">Guess the secret number (1-10):</label>
+  <input type="number" id="userGuess"><br>
+
+  <button onclick="guessNumber()">Submit</button>
+
+  <label for="number">Enter a number:</label>
+  <input type="number" id="number"><br>
+
+  <button onclick="checkDivisibility()">Check Divisibility</button>
+
+  <label for="number">Enter a number:</label>
+  <input type="number" id="number"><br>
+
+  <button onclick="checkNumber()">Check Number</button>
+
+  <label for="temperature">Enter the temperature:</label>
+  <input type="number" id="temperature"><br>
+
+  <button onclick="checkTemperature()">Check Temperature</button>
+
+  <label for="firstNumber">Enter the first number:</label>
+  <input type="number" id="firstNumber"><br>
+
+  <label for="secondNumber">Enter the second number:</label>
+  <input type="number" id="secondNumber"><br>
+
+  <label for="operation">Select the operation:</label>
+  <select id="operation">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select><br>
+
+  <button onclick="calculate()">Calculate</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>

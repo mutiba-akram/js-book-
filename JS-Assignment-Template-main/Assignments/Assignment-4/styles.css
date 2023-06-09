@@ -1,0 +1,18 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3e175e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    margin-bottom: 10px;
+  }

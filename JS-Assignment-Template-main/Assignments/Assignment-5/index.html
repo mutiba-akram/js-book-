@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>Addition Program</h1>
+  <label for="num1">Number 1:</label>
+  <input type="number" id="num1" name="num1" /><br>
+  <label for="num2">Number 2:</label>
+  <input type="number" id="num2" name="num2" /><br>
+  <button onclick="addNumbers()">Add Numbers</button>
+  <div id="result"></div>
+
+  <button onclick="performOperations()">Perform Operations</button>
+  <div id="output1"></div>
+  <div id="output2"></div>
+  <div id="output3"></div>
+  <div id="output4"></div>
+  <div id="output5"></div>
+  <div id="output6"></div>
+
+  <button onclick="calculateTotal()">Calculate</button>
+
+  <button onclick="performArithmetic()">Perform Arithmetic</button>
+  <p id="result"></p>
+  
+  <div id="result"></div>
+
+  <label for="birthYear">Enter birth year:</label>
+  <input type="number" id="birthYear">
+  <button onclick="calculateAge()">Calculate Age</button>
+  <p id="result"></p>
+
+  <label for="radius">Enter radius:</label>
+  <input type="number" id="radius">
+  <button onclick="calculateCircleProperties()">Calculate Properties</button>
+  <p id="result"></p>
+
+  <label for="favoriteSnack">Enter your favorite snack:</label>
+  <input type="text" id="favoriteSnack">
+  <label for="currentAge">Enter your current age:</label>
+  <input type="number" id="currentAge">
+  <label for="maximumAge">Enter your maximum age:</label>
+  <input type="number" id="maximumAge">
+  <label for="amountPerDay">Enter estimated amount per day:</label>
+  <input type="number" id="amountPerDay">
+  <button onclick="calculateLifetimeSupply()">Calculate Lifetime Supply</button>
+  <p id="result"></p>
+
+    <script src="./app.js">
+    </script>
+</body>
+</html>
